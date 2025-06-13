@@ -1,0 +1,67 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.sqlite3
+db.sqlite3
+
+# Media and static files
+media/
+staticfiles/
+
+# VSCode settings
+.vscode/
+
+# IDEs and editors
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS
+.DS_Store
+
+# Env files
+.env
+.env.*
+
+# Coverage reports
+htmlcov/
+.coverage
+
+# Pytest cache
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
+# celery beat schedule files
+celerybeat-schedule
+
+# pipenv
+Pipfile.lock
+
+# Docker
+*.dockerignore
+docker-compose.override.yml
+
+# PyCharm
+*.iml
+*.ipr
+*.iws
+
+# logs
+logs/
+
+# node_modules (если в проекте фронтенд)
+node_modules/
